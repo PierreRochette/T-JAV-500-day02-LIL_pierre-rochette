@@ -95,7 +95,7 @@ public class Gecko {
         return this.energy;
     }
 
-    public void setEnergy() {
+    public void setEnergy(int number) {
         this.energy = Math.min(Math.max(energy, 0), 100);
     }
 
